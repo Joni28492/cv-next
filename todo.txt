@@ -1,0 +1,20 @@
+
+
+
+Pagina hacking
+Pagina Dev
+Pagina 3D
+
+
+pagina de experiencia
+pagina de proyectos
+pagina de fotografia
+
+
+pagina de 3d
+    -index generico
+    -por tematica
+
+zona de blog
+
+maquinas HTB
