@@ -36,7 +36,6 @@ const HomePage: NextPage = () => {
         overflow='hidden'
         borderRadius={7}
         sx={{ p: 0, m: 8 }}
-        className='animate__animated animate__flip'
       >
 
 

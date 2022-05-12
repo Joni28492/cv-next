@@ -3,8 +3,11 @@ import { MainLayout } from '../../components/layouts';
 import { Grid, Button, Box } from '@mui/material';
 import { estudios } from '../../data';
 import { StudyCard } from '../../components/ui';
+import { NextPage } from 'next';
 
-const estudiosPage = () => {
+interface Props { }
+
+const estudiosPage: NextPage<Props> = () => {
 
     const [reverse, setReverse] = useState(false)
 

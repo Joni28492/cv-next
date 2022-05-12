@@ -5,13 +5,14 @@ import { CardForThreeDPage } from '../../../components/ui/CardForThreeDPage'
 import { imgList } from '../../../data'
 import DoubleArrowOutlinedIcon from '@mui/icons-material/DoubleArrowOutlined';
 import { usePage } from '../../../hooks/usePage';
+import { NextPage } from 'next'
 
 
 
 
-const threeDPage = () => {
+const threeDPage: NextPage = () => {
 
-    const { info, handleNext, handlePrevious, Component: CardForThreeD } = usePage(imgList, CardForThreeDPage);
+    const { info, handleNext, handlePrevious, Component } = usePage(imgList, CardForThreeDPage);
 
     return (
         <MainLayout title='Proyectos 3d'>
@@ -21,7 +22,7 @@ const threeDPage = () => {
                 <DoubleArrowOutlinedIcon
                     onClick={handlePrevious}
                     sx={{ transform: 'rotate(180deg)', fontSize: 85 }} />
-                <CardForThreeD img={info} />
+                <Component img={info} />
                 <DoubleArrowOutlinedIcon
                     onClick={handleNext}
                     sx={{ fontSize: 85 }} />

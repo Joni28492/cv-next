@@ -11,12 +11,11 @@ const referentesPage = () => {
 
     return (
         <MainLayout title='referentes'>
-            <Grid container sx={{ mt: 2 }} display='flex' flexWrap='wrap' justifyContent='center' alignItems='center'>
+            <Grid container sx={{ pt: '100px' }} display='flex' flexWrap='wrap' justifyContent='center' alignItems='center'>
 
                 {
                     referentes.map(({ nombre, img, especialidad, desc, web, icon }, i) => (
                         <ReferentesCard
-                            className={`animate__animated animate__animated `}
                             key={web}
                             nombre={nombre}
                             img={img}

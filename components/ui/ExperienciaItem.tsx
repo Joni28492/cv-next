@@ -10,9 +10,9 @@ interface Props {
 import { Box, Typography } from '@mui/material'
 
 
-export const ExperienciaItem = ({ color = 'red', year = '2020-2021', title = 'titulo', company = 'compañia', more = 'lorem', delay = '0' }) => {
+export const ExperienciaItem = ({ color = 'red', year = '2020-2021', title = 'titulo', company = 'compañia', more = 'lorem' }) => {
     return (
-        <Box className={`animate__animated animate__lightSpeedInRight animate__delay-${delay}s`} style={{
+        <Box style={{
             margin: '5px',
             border: `2px solid ${color}`,
             width: '420px',

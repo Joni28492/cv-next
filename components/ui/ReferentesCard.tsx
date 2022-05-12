@@ -1,8 +1,8 @@
-import React, { FC, useContext } from 'react'
+import React, { FC } from 'react'
 import { IReferentes } from '../../data/referentes'
 import NextLink from 'next/link';
 import { Card, CardMedia, Box, Typography, Link } from '@mui/material';
-import { UiContext } from '../../context';
+
 
 export const ReferentesCard: FC<IReferentes> = ({ nombre, img = './no-img-perfil.jpg', especialidad, desc, web, icon = 'fa-solid fa-link-simple', className }) => {
 

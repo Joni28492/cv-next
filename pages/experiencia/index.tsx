@@ -18,7 +18,6 @@ const experienciaPage = () => {
                             title={title}
                             company={company}
                             more={more}
-                            delay={i + 1 + ''}
                         />
 
                     ))
